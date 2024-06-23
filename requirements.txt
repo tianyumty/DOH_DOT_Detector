@@ -1,0 +1,7 @@
+argparse
+jsonlib-python3
+pyOpenSSL
+datetime
+dnspython
+requests
+httpx
