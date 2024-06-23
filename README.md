@@ -1,5 +1,8 @@
 # DOH_DOT_Detector
-Stand alone application for DoH (DNS-over-HTTPS) and DoT (DNS-over-TLS) detection dns-over-https dns-over-tls x509Parser doh dot
+Stand alone application for DoH (DNS-over-HTTPS) and DoT (DNS-over-TLS) detection <br />
+dns-over-https dns-over-tls <br />
+x509Parser <br />
+doh dot
 
 # Model
 ## certs
@@ -7,7 +10,7 @@ Stand alone application for DoH (DNS-over-HTTPS) and DoT (DNS-over-TLS) detectio
 2) Extract the domain name of `cn` and `san` fields from the certificate and save the result to `/data/output_certs_domain.json`
 
 ## send_pcap
-### DOH
+### DoH
 1) Construct `GET` and `POST` requests with `SNI` and `GET` and `POST` requests without `SNI`
 2) The query path of doh includes
     `/dns-query
@@ -27,8 +30,8 @@ Python packages needed for running DoHlyzer are listed in `requirements.tx`t fil
 `pip install -r requirements.txt`
 
 # Usage
-Example:
-`DoH 
-python main.py doh -ip_file IP.txt -doh_file ip_doh.txt
-DoT
-python main.py dot -ip_file dot_IP.txt -dot_file ip_dot.txt`
+Example: <br />
+`DoH ` <br />
+`python main.py doh -ip_file IP.txt -doh_file ip_doh.txt  `<br /> 
+`DoT  `<br /> 
+`python main.py dot -ip_file dot_IP.txt -dot_file ip_dot.txt   `<br />
