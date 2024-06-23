@@ -31,7 +31,7 @@ Python packages needed for running DoHlyzer are listed in `requirements.tx`t fil
 
 # Usage
 Example: <br />
-`DoH ` <br />
+## DoH  <br />
 `python main.py doh -ip_file IP.txt -doh_file ip_doh.txt  `<br /> 
-`DoT  `<br /> 
+## DoT  <br /> 
 `python main.py dot -ip_file dot_IP.txt -dot_file ip_dot.txt   `<br />
